@@ -86,7 +86,7 @@ public class clock {
         System.out.println("请输入分钟：");
         int minute = a.nextInt();
         while (minute < 1 || minute > 59) {
-            System.out.println("输入错误，请重新输入小时：");
+            System.out.println("输入错误，请重新输入分钟：");
             minute = a.nextInt();
         }
         return minute;
@@ -96,7 +96,7 @@ public class clock {
         System.out.println("请输入秒数：");
         int second = a.nextInt();
         while (second < 1 || second > 59) {
-            System.out.println("输入错误，请重新输入小时：");
+            System.out.println("输入错误，请重新输入秒数：");
             second = a.nextInt();
         }
         return second;
